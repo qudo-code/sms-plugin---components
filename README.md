@@ -7,20 +7,20 @@ Integrate JavaScript components into a state machine config. This plugin analyze
 ## Add Plugin
 ```javascript 
 import sms from "state-machine-snacks";
-import components from "state-machine-snacks/plugins/components";
+import components from "sms-plugin---components";
 
-const config = { /* ...your machine config */ };
+const config = { /* ...machine config */ };
 
-// Apply desired stateUI plugins and settings.
-stateUI({
+const service = sms({
     config,
+
+    // Add plugin
     plugins : [
-        components()
+       components(),
     ]
 });
 
-// Start service after
-service.start();
+service.start(); 
 ```
 
 | Options | Description
