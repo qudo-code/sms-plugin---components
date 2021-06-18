@@ -1,11 +1,11 @@
 [⬅ Back to 🍕](https://github.com/qudo-lucas/state-machine-ui)
-# Components Plugin
+# 🔌 Components Plugin
 *Inspired by [XState Component Tree](https://github.com/tivac/xstate-component-tree)*
 
 Integrate JavaScript components into a state machine config. This plugin analyzes a state machine in order to build a tree of components to be rendered for the active state. This component tree is stored in your state machine `context` under the `components` property.
 
 ## Add Plugin
-```javascript
+```javascript 
 import sms from "state-machine-snacks";
 import components from "state-machine-snacks/plugins/components";
 
