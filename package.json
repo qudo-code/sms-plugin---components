@@ -1,5 +1,5 @@
 {
-  "name": "sms-plugin-components",
+  "name": "sms-plugin---components",
   "version": "1.0.0",
   "description": "Conditionally render components as you enter/exit states.",
   "main": "./dist/lib/index.js",
@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qudo-lucas/state-machine-ui.git"
+    "url": "git+https://github.com/qudo-lucas/sms-plugin---components.git"
   },
   "bugs": {
-    "url": "https://github.com/qudo-lucas/state-machine-ui/issues"
+    "url": "https://github.com/qudo-lucas/sms-plugin---components"
   },
-  "homepage": "https://github.com/qudo-lucas/state-machine-ui#readme"
+  "homepage": "https://github.com/qudo-lucas/sms-plugin---components"
 }
