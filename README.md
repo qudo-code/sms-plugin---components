@@ -48,7 +48,7 @@ Examples of state machine configs and their component tree outputs for each stat
 
 ### Single Component 
 ```javascript
-import { component } from "state-ui/plugins/components;
+import { component } from "sms-plugin---components";
 
 import ComponentOne from "./component-one.svelte";
 import ComponentTwo from "./component-two.svelte";
@@ -110,7 +110,7 @@ export default {
 ### Nesting Components 
 This is how you could make something like a multi-tab view or nav bar.
 ```javascript
-import { component } from "state-ui/plugins/components;
+import { component } from "sms-plugin---components";
 
 import TabView from "./tab-view.svelte";
 
@@ -189,7 +189,7 @@ export default {
 ### Parallel Components
 Often times we need to render more than one component at once. To accommodate this, the component tree plugin plays very nicely with XState's concept of [parallel states](https://xstate.js.org/docs/guides/parallel.html#parallel-state-nodes).
 ```javascript
-import { component } from "state-ui/plugins/components";
+import { component } from "sms-plugin---components";
 
 import MainView from "./main-view.svelte";
 import Modal from "./modal.svelte";
